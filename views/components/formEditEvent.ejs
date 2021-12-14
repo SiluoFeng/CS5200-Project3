@@ -1,0 +1,67 @@
+<h2>Event</h2>
+
+<form
+  action=" <%= '/events/' + eve._id + '/edit' %>"
+  method="POST"
+>
+
+  <div>
+    <label class="form-label">
+      Event_id:
+      <input
+        class="form-control"
+        type="text"
+        name="_id"
+        disabled
+        value="<%= eve._id %>"
+        disabled
+      />
+    </label>
+  </div>
+
+  <div>
+    <label class="form-label">
+      EventType:
+      <input
+        class="form-control"
+        type="text"
+        name="eventType"
+        value="<%= eve.eventType %>"
+      />
+    </label>
+  </div>
+
+  <div>
+    <label class="form-label">
+      Date:
+      <input
+        class="form-control"
+        type="date"
+        name="date"
+        value="<%= eve.date %>"
+      />
+    </label>
+  </div>
+
+
+  <div>
+    <label class="form-label">
+      Description:
+      <input
+        class="form-control"
+        type="text"
+        name="tags"
+        value="<%= eve.description %>"
+      />
+    </label>
+  </div>
+
+
+
+  <button type="submit" class="btn btn-primary">Edit</button>
+  <a
+    class="btn btn-danger"
+    href="<%= '/events/' + eve._id + '/delete' %>"
+    >Delete</a
+  >
+</form>

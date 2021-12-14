@@ -1,0 +1,13 @@
+<h2>Participant Ranking</h2>
+
+<% for (let pat of participants) { %>
+  <div class="col-4">
+    <ul>
+      <li><%= pat.eventName %>
+      <a class="btn btn-outline-primary" href="<%= '/events/' + pat._id + '/participantActual/addOne' %>">Join</a>
+      </li>
+    </ul>
+  </div>
+<% } %>
+
+
