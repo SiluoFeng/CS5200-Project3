@@ -3,7 +3,9 @@
 ## Part 1： 
 
 ## Part 2:
-### SiluoFeng: 1) CRUD the events 2) Using Redis for sign in/sign up function 
+### SiluoFeng's work: 
+1) CRUD the events 
+2) Using Redis for sign in/sign up function 
 
 
 
