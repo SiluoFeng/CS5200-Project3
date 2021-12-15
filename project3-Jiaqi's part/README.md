@@ -7,12 +7,7 @@ I use hash to store the addresses.
 
 structure example:  
 hash key:  field      value  
-uuid:      id         1  
-           street1    123  
-           street2    abc  
-           city       hdg  
-           state      ksd  
-           zipCode    36485  
+uuid:      id         1     street1    123 street2    abc city       hdg state      ksd zipCode    36485  
 
 ## Using it
 
