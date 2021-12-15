@@ -8,7 +8,7 @@
 2) Using Redis for sign in/sign up function 
 
 ### Jiaqi Wang's work: 
-CRUD the addresses 
+CRUD the addresses.  
 Please see the ReadMe file in project3-jiaqi's part folder for more details.
 
 ## Using it
