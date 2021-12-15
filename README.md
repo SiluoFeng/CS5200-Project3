@@ -9,7 +9,7 @@
 
 ### Jiaqi Wang's work: 
 CRUD the addresses 
-
+Please see the ReadMe file in project3-jiaqi's part folder for more details.
 
 ## Using it
 
