@@ -5,7 +5,7 @@ There is a loading file in the db folder that load the json addreess array into 
 # describe data sructure
 I use hash to store the addresses.  
 
-structure example:
+structure example:  
 hash key:  field      value  
 uuid:      id         1  
            street1    123  
