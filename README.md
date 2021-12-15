@@ -7,6 +7,8 @@
 1) CRUD the events 
 2) Using Redis for sign in/sign up function 
 
+### Jiaqi Wang's work: 
+CRUD the addresses 
 
 
 ## Using it
