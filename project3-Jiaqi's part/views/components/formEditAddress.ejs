@@ -1,0 +1,72 @@
+<h2>Address</h2>
+
+<form
+  action=" <%= '/addresses/' + add.id + '/edit' %>"
+  method="POST"
+>
+
+  <div>
+    <label class="form-label">
+      ID:
+      <input
+        class="form-control"
+        type="text"
+        name="id"
+        value="<%= add.id %>"
+        disabled
+      />
+    </label>
+  </div>
+  <div>
+    <label class="form-label">
+      Street Number:
+      <input
+        class="form-control"
+        type="text"
+        name="street1"
+        value="<%= add.street1 %>"
+      />
+    </label>
+  </div>
+
+  <div>
+    <label class="form-label">
+      Street Name:
+      <input
+        class="form-control"
+        type="text"
+        name="street2"
+        value="<%= add.street2 %>"
+      />
+    </label>
+  </div>
+  <div>
+    <label class="form-label">
+      City:
+      <input
+        class="form-control"
+        type="text"
+        name="city"
+        value="<%= add.city %>"
+      />
+    </label>
+  </div>
+  <div>
+    <label class="form-label">
+      State:
+      <input
+        class="form-control"
+        type="text"
+        name="state"
+        value="<%= add.state %>"
+      />
+    </label>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Edit</button>
+  <a
+    class="btn btn-danger"
+    href="<%= '/addresses/' + add._id + '/delete' %>"
+    >Delete</a
+  >
+</form>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <%- include("../templates/head.ejs") %>
+  <body>
+
+    <%- include("../templates/navBar.ejs") %>
+
+    <div class="container">
+      <h1>Address Manager</h1>
+
+
+      <% if (msg) { %>
+        <div class="alert alert-primary">
+          <%= msg %>
+        </div>
+      <% } %>
+
+
+      <div class="row">
+        <div class="col-8">
+          <%- include("../components/addSearchBar.ejs", { query }) %>
+          
+          <%- include("../components/addressesList.ejs", { addresses, currentPage, lastPage }) %>
+        </div>
+        <div class="col-4">
+          <%- include("../components/formCreateAddress.ejs") %>
+        </div>
+      </div>
+
+    </div>
+
+    <%- include("../templates/footer.ejs") %>
+  </body>
+</html>
